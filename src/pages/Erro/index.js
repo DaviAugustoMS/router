@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Header extends Component{
-  
+class Erro extends Component{
   render(){
     return(
       <div>
-        Header meu projeto
-        <Link to="/"> Home </Link>
+        <h2>Ops pagina não encotrada!</h2>
+        <h3>Vc esta procurando por:</h3>
+        <Link to="/">Home </Link>
         <Link to="/sobre"> Sobre</Link>
-        <hr/>
       </div>
     );
   }
 }
 
-export default Header;
+export default Erro;

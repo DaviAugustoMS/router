@@ -6,7 +6,6 @@ class Sobre extends Component{
     return(
       <div>
         <h2>Pagina Sobre ......</h2> <br/>
-        <Link to="/">Ir para Home</Link>
       </div>
     );
   }

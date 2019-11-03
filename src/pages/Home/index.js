@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 
 
 class Home extends Component{
@@ -7,7 +7,6 @@ class Home extends Component{
     return(
       <div>
         <h2>Bem-vimdo a pagina Home</h2> <br/>
-        <Link to="/sobre">Ir para Sobre</Link>
       </div>
     );
   }
