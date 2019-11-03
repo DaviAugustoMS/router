@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-
-class Home extends Component{
+class Sobre extends Component{
   render(){
     return(
       <div>
-        <h2>Bem-vimdo a pagina Home</h2> <br/>
-        <Link to="/sobre">Ir para Sobre</Link>
+        <h2>Pagina Sobre ......</h2> <br/>
+        <Link to="/">Ir para Home</Link>
       </div>
     );
   }
 }
 
-export default Home;
+export default Sobre;
